@@ -1,6 +1,3 @@
-import io
-import sys
-import pytest
 from loan.eligibility import evaluate, classify_member, get_audit_count
 
 
