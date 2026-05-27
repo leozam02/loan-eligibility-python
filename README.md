@@ -21,3 +21,9 @@ pytest
 ```bash
 python -m loan.cli --income 1200 --debt 320 --tenure-months 18 --age 34 --savings-balance 850
 ```
+
+## Static Analysis Tool / Linter
+
+* **Tool:** Flake8
+* **Version:** 7.0.0 (o la versión exacta que estés usando)
+* **Rule Profile:** Standard PEP 8 (Default)
