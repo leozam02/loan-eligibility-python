@@ -13,7 +13,10 @@ def main():
     p.add_argument("--dependents", type=int, default=0)
     p.add_argument("--name", type=str, default="Member")
     a = p.parse_args()
-    r = evaluate(a.income, a.debt, a.tenure_months, a.age, a.savings_balance, a.late_payments, a.dependents)
+    r = evaluate(
+        a.income, a.debt, a.tenure_months, a.age, 
+        a.savings_balance, a.late_payments, a.dependents
+    )
     print(format_report(r, a.name))
 
 
